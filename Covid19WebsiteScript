@@ -1,0 +1,27 @@
+
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+import time
+
+
+class WriteURL:
+    def testcase1():
+        options = Options()
+        options.headless = True 
+        driver = webdriver.Chrome(options=options)
+        driver.get("https://www.kairoscs.com/contact/")
+        print ("The URL works on", " " , driver.current_url)
+        print (driver.title)
+
+    def testcase2():
+        options = Options()
+        options.headless  = True 
+        driver = webdriver.Chrome(options= options)
+        driver.get("https://www.msn.com")
+        print (driver.current_url)
+        print (driver.title)        
+
+WriteURL.testcase1()
+WriteURL.testcase2()
+
