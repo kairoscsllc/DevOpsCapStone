@@ -18,7 +18,7 @@ class WriteURL:
         options = Options()
         options.headless  = True 
         driver = webdriver.Chrome(options= options)
-        driver.get("https://www.mlb.com")
+        driver.get("https://www.nfl.com")
         print (driver.current_url)
         print (driver.title)        
 
