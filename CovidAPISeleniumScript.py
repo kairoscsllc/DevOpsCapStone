@@ -9,9 +9,9 @@ class Testing123:
         driver.get("https://covid19api.com")
         print(driver.current_url)
         driver.get_screenshot_as_file("COVID19APIChrome.png")
-        time.sleep(10)
+        time.sleep(15)
         driver.find_element(By.XPATH, "/html/body/div[1]/div/div/section[1]/div[2]/a/img").click()
-        time.sleep(10)
+        time.sleep(15)
         driver.get_screenshot_as_file("DigitalOceanChromeReferral.png")
         driver.close()
 
