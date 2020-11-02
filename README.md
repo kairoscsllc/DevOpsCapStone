@@ -3,7 +3,7 @@ DevOpsCapStone
 
 The purpose of this capstone is to confirm understanding of DEVOPS Concepts using the tools and techniques learned in the Cohort.
 
-Use case:
+Use case:- *** 
 Utilize the Covid19 public API from John's Hopkins University Hospital to confirm that there is at least 1 case of Covid 19 in a country on each continent.  If so, navigate to the Coivid19 website and publish a message. 
 
 
