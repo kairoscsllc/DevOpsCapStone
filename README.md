@@ -26,7 +26,7 @@ The (3) Ways of Devops
 
 WAY 1 = Continuous Flow
 Utilize GitHub for collabortion so multiple developers can contribute to our source scripts. 
-SELENIUM / PYTHON
+GITHUB / SELENIUM / PYTHON
 
 WAY 2 = Amplify Feeback loops 
 AWS / JENKINS / SLACK / POSTMAN
