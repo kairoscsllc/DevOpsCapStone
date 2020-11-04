@@ -1,6 +1,6 @@
 # DevOpsCapStone
 DevOpsCapStone Summary
-The purpose of this capstone is to confirm understanding of DEVOPS Concepts using the tools and techniques learned in the Cohort..
+The purpose of this capstone is to confirm understanding of DEVOPS Concepts using the tools and techniques learned in the Cohort.......
 
 Company Information:
 We are a consulting company hired to build custom Selenium scripts for our clients (John Hopkins university and Digital Ocean).
