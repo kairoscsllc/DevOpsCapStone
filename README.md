@@ -22,20 +22,3 @@ TOOLS used
 6. GitHub
 
 
-The (3) Ways of Devops
-
-WAY 1 = Continuous Flow
-Utilize GitHub for collabortion so multiple developers can contribute to our source scripts. 
-GITHUB / SELENIUM / PYTHON
-
-WAY 2 = Amplify Feeback loops 
-AWS / JENKINS / SLACK / POSTMAN
-
-
-WAY 3 = Continuous Exploration / Learning 
-Continue to build on scrips and resolve errors posted in SLACK and logs. 
-JENKINS / PYTHON 
-
-
-
-Enjoy !!!!
