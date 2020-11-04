@@ -11,14 +11,14 @@ class WriteURL:
         options.headless = True 
         driver = webdriver.Chrome(options=options)
         driver.get("https://www.kairoscs.com/contact/")
-        print ("If you see this message there is at least 1 COVID19 case in one county on every continent.  Using Selenium and Python on AWS to hit the website", " " , driver.current_url)
+        print ("If you see this message there is at least 1 COVID19 case in (2) county on every continent.  Using Selenium and Python on AWS to hit the website", " " , driver.current_url)
         print (driver.title)
 
     def testcase2():
         options = Options()
         options.headless  = True 
         driver = webdriver.Chrome(options= options)
-        driver.get("https://www.nfl.com")
+        driver.get("https://www.msn.com")
         print (driver.current_url)
         print (driver.title)        
 
