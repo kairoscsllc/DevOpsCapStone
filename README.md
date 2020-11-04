@@ -20,16 +20,25 @@ TOOLS used
 4. Selenium
 5. AWS - Elastic Cloud Linux Servers
 6. GitHub
+7. Slack
 
+
+______________________________
 The (3) Ways of Devops
- WAY 1 = Continuous Flow
- Utilize GitHub for collabortion so multiple developers can contribute to our source scripts. 
- SELENIUM / PYTHON
+______________________________
+WAY 1 = Continuous Flow
+Utilize GitHub for collabortion so multiple developers can contribute to our source scripts while confirming that the core API is up and running.
+GITHUB / AWS / SELENIUM / PYTHON / POSTMAN / JENKINS
+______________________________
 
- WAY 2 = Amplify Feeback loops 
- AWS / JENKINS / SLACK / POSTMAN
+______________________________
+WAY 2 = Amplify Feeback loops 
+Utilize Jenkins jobs integrated with GitHub to trigger the API test jobs on commit of a new Selenium Script by any developer.  Post a SLACK message to the team channel when there is an issue so that someone can take a look and be proactive about it before out clients find out.  
+JENKINS / SLACK
+______________________________
 
-
- WAY 3 = Continuous Exploration / Learning 
- Continue to build on scrips and resolve errors posted in SLACK and logs. 
- JENKINS / PYTHON 
+______________________________
+WAY 3 = Continuous Exploration / Learning 
+Continue to build on scripts and resolve errors posted in SLACK and logs. 
+JENKINS / SLACK / PYTHON
+______________________________
