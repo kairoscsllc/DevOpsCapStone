@@ -5,7 +5,7 @@ The purpose of this capstone is to confirm understanding of DEVOPS Concepts usin
 Company Information:
 We are a consulting company hired to build custom Selenium scripts for our clients (John Hopkins University and Digital Ocean).
 
-Use case:- *** 
+Use case:
 
 Hit the Covid19 public API from John's Hopkins University Hospital to confirm that there is at least 1 case of Covid 19 in a country on each continent.  If so, post a successful message to team slack channel.  Utilize Postman, AWS and Jenkins to confirm this.
 
